@@ -1,0 +1,11 @@
+{
+  "name": "preentrega1-genoud",
+  "version": "1.0.0",
+  "description": "Pre Entrega Java script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Estanislao Genoud",
+  "license": "ISC"
+}

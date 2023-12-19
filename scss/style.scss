@@ -1,0 +1,14 @@
+@use "sass:math";
+@import "./partials/reset";
+
+
+
+body{
+    width: 100%;
+    background-color: #272727;
+    
+}
+
+
+@import "./partials/navbar";
+

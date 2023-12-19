@@ -1,0 +1,63 @@
+*,
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 100%;
+  background-color: #272727;
+}
+
+nav {
+  width: 90%;
+  margin: auto;
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+nav .nav--links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+nav .nav--links .link--per a {
+  position: relative;
+  padding-bottom: 0.75rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+nav .nav--links .link--per a::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #b30c0c;
+  transition: all 0.3s ease;
+}
+nav .nav--links .link--per a:hover::after {
+  width: 70%;
+}
+nav .buy-per {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 30px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
